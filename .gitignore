@@ -1,0 +1,12 @@
+node_modules
+npm-debug.log
+.DS_Store
+.env
+.vscode
+.jshintrc
+custom*
+package-lock.json
+*.swp
+ignore
+tmp
+standalone

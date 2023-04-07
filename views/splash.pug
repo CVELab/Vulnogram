@@ -1,0 +1,30 @@
+//- Copyright (c) 2017 Chandan B N. All rights reserved.
+
+doctype html
+html
+  head
+    title= title
+    include head
+  body.sec.wlp
+    .pad2.gap2
+    .pad2.gap2
+    center
+      table.rnd.wht.shd
+       tr
+        td.center(width="315px" style="border-right:1px dashed #eee")
+           .pad2.gap2
+            .slogo
+                include ../public/css/logo.svg
+            
+            .big Vulnogram
+            small.sml(style="text-transform:uppercase;font-size:12px;")
+                | Making the world safer
+                br
+                | one CVE ID at a time
+                br
+                | Since 2017
+        td.pad2
+            !=messages()
+            .pad.gap#message
+            block content
+      include foot
